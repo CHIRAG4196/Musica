@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:id="@+id/tv_song_name"
+            android:text="Closer"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16sdp"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_song_name"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/tv_artist_name"
+            android:text="Chain Smoker"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/gray"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:id="@+id/iv_plus"
+            android:src="@drawable/ic_plus"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/line2"
+            android:layout_below="@id/tv_artist_name"/>
+
+    </RelativeLayout>
+
+
+</layout>

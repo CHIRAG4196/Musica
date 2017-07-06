@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="com.example.chirag.musica.SettingActivity">
+
+        <RelativeLayout
+            android:id="@+id/rl_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_setting_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Settings"
+                android:textColor="@color/Red"
+                android:textSize="@dimen/_24sdp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/act_setting_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:text="Close"
+                android:textColor="#000000"
+                android:textSize="@dimen/_18sdp" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/rl_1"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_below="@id/view_line"
+            android:background="@color/outer">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Get unlimited downloads and remove ads"
+                android:textColor="#000000"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/act_setting_tv_premium_account"
+                android:layout_width="@dimen/_230sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_below="@id/tv_label"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/Red"
+                android:gravity="center"
+                android:text="Get SMOOBOO premium today!"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/rl_2"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/act_setting_rl_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@id/view_line2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_change_password"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="Change Password"
+                android:textColor="#000000"
+                android:textSize="@dimen/_18sdp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:rotation="180"
+                android:src="@drawable/ic_back"
+                android:tint="@color/arrow" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/act_setting_rl_change_password"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/act_setting_rl_notification"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@id/view_line3">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="Notification"
+                android:textColor="#000000"
+                android:textSize="@dimen/_18sdp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:rotation="180"
+                android:src="@drawable/ic_back"
+                android:tint="@color/arrow" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/act_setting_rl_notification"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@id/view_line4"
+            android:background="@color/outer" />
+
+        <View
+            android:id="@+id/view_line5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/rl_5"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/act_setting_rl_socialize_with_smoboo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@id/view_line5">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_socialize"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="Socialize With Smubu"
+                android:textColor="#000000"
+                android:textSize="@dimen/_18sdp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:rotation="180"
+                android:src="@drawable/ic_back"
+                android:tint="@color/arrow" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/act_setting_rl_socialize_with_smoboo"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_below="@id/view_line6"
+            android:background="@color/outer" />
+
+        <View
+            android:id="@+id/view_line7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/rl_7"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/act_setting_rl_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@id/view_line7">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_sign_out"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="28dp"
+                android:gravity="center"
+                android:text="Sign out (Heba El Houjairy)"
+                android:textColor="#000000"
+                android:textSize="@dimen/_18sdp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/appCompatImageView"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:rotation="180"
+                android:src="@drawable/ic_back"
+                android:tint="@color/arrow" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/act_setting_rl_sign_out"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view_line8"
+            android:background="@color/outer" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musica</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_password_hint">Current Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="confirm_new_password_hint">Confirm New Password</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_2sdp">
+
+        <com.example.chirag.musica.CustomLayout.CircleImageView
+            android:id="@+id/list_popular_civ_image"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:src="@drawable/abcd" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:layout_toRightOf="@id/list_popular_civ_image"
+            android:text="Closer"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/list_popular_tv_artist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_song_name"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_toRightOf="@id/list_popular_civ_image"
+            android:text="Chain Smoker"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_12sdp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_plus"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/ic_plus" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@id/list_popular_civ_image"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:background="@color/line2" />
+
+    </RelativeLayout>
+</layout>
